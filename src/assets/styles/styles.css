@@ -1,0 +1,234 @@
+/* Keep all properties in transition */
+body {
+  background-color: #fff;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #00e0fe;
+}
+
+a:hover {
+  color: #1107fe;
+}
+
+section {
+  padding: 120px 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon i {
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-effect {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.card-effect:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.line {
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+  height: 4px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*NAVBAR*/
+.navbar .brand-name {
+  font-weight: bold;
+}
+.navbar #basic-navbar-nav {
+  font-weight: 450;
+}
+.navbar .navbar-nav .nav-link.active {
+  background: linear-gradient(#00e0fe, #1107fe); /* Standard syntax */
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard syntax */
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for browsers that don't support -webkit-text-fill-color */
+}
+.navbar .navbar-nav .nav-link {
+  transition: all;
+}
+
+.btn-brand {
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+  transition: all 0.4s ease;
+  border-radius: 100px;
+  border: none;
+}
+
+.btn-brand:hover {
+  transform: scale(1.1);
+}
+
+/*HERO*/
+#hero {
+  height: 100dvh;
+  background: linear-gradient(rgba(0, 224, 254, 0.4), rgba(17, 7, 254, 0.7)), url(../images/cover_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#hero h1,
+#hero p {
+  color: white;
+}
+
+/*SERVICES*/
+#services .icon {
+  margin-top: -35px;
+  margin-bottom: 1rem;
+}
+
+/*ABOUT*/
+#about {
+  background: linear-gradient(rgba(0, 224, 254, 0.4), rgba(17, 7, 254, 0.7)), url(../images/cover_3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#about h1 {
+  color: white;
+}
+#about p {
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about i {
+  transition: all 0.4s ease;
+}
+#about i:hover {
+  transform: scale(1.1);
+}
+#about small {
+  color: white;
+}
+
+/*FEATURES*/
+#features i {
+  background: linear-gradient(#00e0fe, #1107fe); /* Standard syntax */
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard syntax */
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for browsers that don't support -webkit-text-fill-color */
+}
+
+/*COUNTER*/
+#counter {
+  background: linear-gradient(rgba(0, 224, 254, 0.4), rgba(17, 7, 254, 0.7)), url(../images/cover_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#counter i {
+  font-size: 32px;
+  color: white;
+}
+#counter h3,
+#counter p,
+#counter small,
+#counter h1 {
+  color: white;
+}
+
+/*REVIEW*/
+#reviews img {
+  width: 75px;
+  border-radius: 50%;
+}
+
+/*CONTACT*/
+#contact {
+  background: linear-gradient(rgba(0, 224, 254, 0.4), rgba(17, 7, 254, 0.7)), url(../images/image_3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contact .form-control {
+  background: transparent;
+  color: white;
+  border-radius: 0;
+  border-color: wheat;
+}
+#contact .form-control::-moz-placeholder {
+  color: white;
+}
+#contact .form-control::placeholder {
+  color: white;
+}
+#contact .form-control:focus {
+  background-color: #fff;
+  color: black;
+  border: white;
+  box-shadow: none;
+}
+#contact .form-control:focus::-moz-placeholder {
+  color: lightgray;
+}
+#contact .form-control:focus::placeholder {
+  color: lightgray;
+}
+#contact .btn-brand:hover {
+  transform: scale(1);
+}
+#contact small,
+#contact h1 {
+  color: white;
+}
+
+footer {
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+}
+footer .sosial-icons {
+  display: inline-flex;
+}
+footer .sosial-icons i {
+  height: 25px;
+  width: 25px;
+  margin-left: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer .sosial-icons i:hover {
+  background-color: white;
+  color: #00e0fe;
+}/*# sourceMappingURL=styles.css.map */
