@@ -17,7 +17,7 @@ const Reviews = () => {
       avatar: "/images/avatar_2.jpg",
       content:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      rating: 4,
+      rating: 5,
     },
     {
       name: "John Doe",
